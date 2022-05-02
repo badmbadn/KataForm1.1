@@ -69,6 +69,7 @@ html {
     font-family: "Barlow",sans-serif;
     font-weight: 300;
     font-size: 16px;
+    overflow:hidden;
  }
 h1,h2,h3,h4,h5 {
     margin: 0; 
@@ -328,7 +329,7 @@ ul,ol,li {
 .form-options__descr {
     font-weight: 400;
     color: var(--color-gray-squirrel);
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 
@@ -471,7 +472,7 @@ ul,ol,li {
 }
 .form-user__flex-inner {
     flex:1 0 auto;
-
+}
 .form-user__button {
     flex: 1 0 auto;
 }*/
@@ -539,7 +540,7 @@ ul,ol,li {
         margin-bottom: 5px;
     }
     .form-contacts{
-        padding: 15px 0px;
+        padding: 10px 0px;
     }
      .form-options__descr {
          margin-bottom: 15px;
@@ -574,7 +575,7 @@ ul,ol,li {
  }
 @media (min-width: 576px) and (max-width: 767px) {
     .form-contacts {
-        padding:20px 0px;
+        padding:15px 0px;
         height: 100vh;
     }
     .form-user__title {
@@ -625,11 +626,11 @@ ul,ol,li {
 
 @media (min-width: 768px) and (max-width: 991px) {
     .form-contacts {
-        padding:25px 0px;
+        padding:20px 0px;
         height: 100vh;
     }
     .form-contacts__right {
-        padding-top: 20px;
+        padding:15px 15px;
     }
     .container {
         height: 100%;
@@ -680,14 +681,14 @@ ul,ol,li {
 
 @media (min-width: 992px)and (max-width: 1199px){
     .form-contacts {
-        padding:25px 15px;
+        padding:20px 15px;
         height: 100vh;
     }
     .container {
         height: 100%;
     }
     .form-contacts__right {
-        padding: 25px 30px;
+        padding: 20px 30px;
         margin: 0 auto;
         width: 100%;
     }
@@ -731,7 +732,8 @@ ul,ol,li {
         margin-right: 35px;
     }
     .tooltip .tooltip-text {
-        left: 0;
+        left: 0px;
+        bottom: 0px;
     }
     .form-user__button {
         width: 50%;
@@ -816,11 +818,11 @@ ul,ol,li {
 
 
   @media (min-width: 667px) and (max-width:1024px) , (orientation: portrait){ 
-    .form-contacts {
+   /* .form-contacts {
         min-height: 100%;
         height: 100%;
         
-    }
+    }*/
     .form-user {
       display: flex;  
    }
@@ -831,10 +833,10 @@ ul,ol,li {
     .form-contacts__right {
         overflow-y: scroll;
     }
-    .container {
+   /* .container {
         min-height: 100%;
         overflow-y: scroll;
-    }
+    }*/
   
    
 }
